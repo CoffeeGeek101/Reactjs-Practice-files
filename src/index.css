@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.head-container{
+    background-color: rgb(255, 84, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 10px;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero_img{
+    min-width: 150px;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    gap: 20px;
+}
+
+.location{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dates{
+    margin-bottom: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.details{
+    margin-top: 2px;
+    font-size: 13px;
+    max-width: 400px;
+}
+.content-line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.loco_name{
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+a{
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(245, 104, 104);
+}
+
+hr{
+    color: rgb(230, 230, 230);
+    max-width: 90%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.2px;
 }
